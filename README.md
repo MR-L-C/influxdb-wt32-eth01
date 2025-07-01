@@ -31,9 +31,9 @@ ESP8266WiFiMulti wifiMulti;
 // WiFi password
 #define WIFI_PASSWORD "Hello123"
 // InfluxDB v2 server url, e.g. https://eu-central-1-1.aws.cloud2.influxdata.com (Use: InfluxDB UI -> Load Data -> Client Libraries)
-#define INFLUXDB_URL "https://"
+#define INFLUXDB_URL "https://website.com"
 // InfluxDB v2 server or cloud API authentication token (Use: InfluxDB UI -> Load Data -> Tokens -> <select token>)
-#define INFLUXDB_TOKEN "l49tCl_KU2yDQ1aAR7MamO6RfscdWVLR2et5Fc4oAcJMizHcLKEV2CY2ggUHp7IhlBpb4GkU4RhWWRhNbfnu3A=="
+#define INFLUXDB_TOKEN "TOKEN CODE"
 // InfluxDB v2 organization id (Use: InfluxDB UI -> Settings -> Profile -> <name under tile> )
 #define INFLUXDB_ORG "606bf7b8c1cb190d"
 // InfluxDB v2 bucket name (Use: InfluxDB UI -> Load Data -> Buckets)
